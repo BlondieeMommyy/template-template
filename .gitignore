@@ -1,4 +1,45 @@
-# Compiled source #
+# Statistics for Local Pairing Run:
+	Activity, Identifier, RTT, OWD, LocalMessageSentTime
+	PBBCMessageIDWatchDidApplyWirelessCredentials, 4FD7833A-18CB-4F80-B3DD-8E874C1FAD45, 2.367371, 0.000000, 766529490.805626
+	PBBCMessageIDGizmoDidBeginActivating, 52B6EFFC-0887-4335-A607-BEB1A8DC5603, 2.236535, 0.000000, 766529490.937871
+	PBBCMessageIDSendProxyActivation, 7451DCDA-5D56-47A2-98D7-96E34C8C9784, 0.189838, 0.000000, 766529496.281097
+	PBBCMessageIDSendProxyActivation, 77F3622E-2152-4F21-8F26-40B0C1EE20AF, 2.270017, 0.000000, 766529503.996154
+	PBBCMessageIDSendCompanionLanguageAndLocaleDetails, C87E458A-4BA5-439D-8446-AA708FFF21E4, 1.192713, 0.000000, 766529506.292735
+	PBBCMessageIDWarrantySentinel, 336D7649-654C-49BE-B23E-D17E3F7122C8, 0.637432, 0.000000, 766529507.574353
+	PBBCMessageIDGizmoDidFinishActivating, F7E775AB-B230-4107-A540-0AB3BA8318FF, 0.433462, 0.000000, 766529538.624331
+	PBBCMessageIDGizmoDidEndPasscodeCreation, FBE397D4-DE2D-4EF4-9A7F-010B10441067, 0.102193, 0.000000, 766529553.416913
+	PBBCMessageIDGizmoDidBeginUnlockPairing, C9CAB31A-1D9A-412C-A039-842E6C068D03, 0.851276, 0.000000, 766529558.843618
+	PBBCMessageIDGizmoDidEndUnlockPairing, 6EE8E25F-8739-4476-A879-BF62FDAAEA62, 0.092099, 0.000000, 766529565.089102
+	PBBCMessageIDTellGizmoToPrepareForInitialSyncResponse, 116DBFE4-5724-4614-83C9-AE33F2B9E920, 0.050240, 0.000000, 766529599.483745
+
+Round-Trip Delay Time
+Longest Local RTT Measurement: < 0x155e0d10 Activity: PBBCMessageIDWatchDidApplyWirelessCredentials (4FD7833A-18CB-4F80-B3DD-8E874C1FAD45), time delta: 2.367371 (766529490.805626 / 0.000000)>
+Shortest Local RTT Measurement: < 0x156f0700 Activity: PBBCMessageIDTellGizmoToPrepareForInitialSyncResponse (116DBFE4-5724-4614-83C9-AE33F2B9E920), time delta: 0.050240 (766529599.483745 / 0.000000)>
+Average Local RTT: 0.947561 (Total 10.423176 across 11 runs).
+(Without Sync Messages) Average Local RTT: 0.947561 (Total 10.423176 across 11 runs).
+
+Other Local Activities: 
+	 Activity: WiFi-LanguageScan time: 1.274186
+	 Activity: SetPasscodeActivity time: 0.007851
+	 Activity: PairUnlockActivity time: 3.099634
+
+
+Local Milestones: 
+	 Milestone: CanBeginActivating (D95F057D-510D-45AE-B90E-775109ADB4B3) time ended: 766529490.929057
+	 Milestone: PBBProtoPushControllerType (2EF510C8-7400-49BB-A035-592897638D58) time ended: 766529508.215878
+	 Milestone: PBBProtoHandleActivationData (4A865A77-1BA2-4C85-B574-04EE220AF4AB) time ended: 766529537.568679
+	 Milestone: PBBProtoPushControllerType (46545CF2-96FB-432D-B6B7-A73B43164885) time ended: 766529543.829805
+	 Milestone: PBBProtoPushControllerType (8F1D49C5-3EFA-49FD-B5D2-EF32654F3A54) time ended: 766529596.956824
+	 Milestone: PBBProtoPushControllerType (E6FA6D06-0947-40E9-AD55-059CC600F470) time ended: 766529574.905179
+	 Milestone: PBBProtoWarrantySentinel (BC93C9CD-C256-4640-B759-89147DB8D27A) time ended: 766529507.567319
+	 Milestone: PBBProtoHandleActivationData (645D6963-B31D-4107-8C78-D417739E20C6) time ended: 766529498.586665
+	 Milestone: PBBProtoPushControllerType (246B2B30-F370-4F1C-B56C-87C8257067B8) time ended: 766529567.700868
+	 Milestone: PBBProtoPushControllerType (FE2BB242-C2E0-479A-9E3C-5A5EA2B46951) time ended: 766529599.552241
+	 Milestone: PBBProtoPushControllerType (C2413AD6-2DB1-4400-A016-2A8A7D36D166) time ended: 766529539.314884
+	 Milestone: PBBProtoPushControllerType (39796AE9-63D5-4323-8D1F-99AB57C5AE25) time ended: 766529573.015008
+	 Milestone: PBBProtoPushControllerType (CF5A9E7F-D70A-4063-A07D-B9D48AB906AD) time ended: 766529554.261043
+	 Milestone: PBBProtoPushControllerType (85B59069-6EBD-4089-9804-53710E2D2FDE) time ended: 766529570.626959
+	 Milestone: PBBProtoPushControllerType (1806EF6E-6D89-4059-9B03-6A884777AEC5) time ended: 766529562.395821 source #
 ###################
 *.com
 *.class
